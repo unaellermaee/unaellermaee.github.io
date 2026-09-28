@@ -3,98 +3,161 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Una Ellermaee | Personal Website</title>
     <meta
       name="description"
-      content="Personal website for Una, an Exchange student."
+      content="Personal website for Una Ellermaee, a student from Norway on exchange at Hang Seng University of Hong Kong."
     />
-    <title>Una | Exchange student</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="#top">Una</a>
-        <nav aria-label="Main navigation">
-          <ul class="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="navbar container" aria-label="Main navigation">
+        <div class="brand">Una Ellermaee</div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
     </header>
 
-    <main id="top">
-      <!-- Change the welcome text to match your name, role, and tone. -->
-      <section class="hero">
+    <main>
+      <section id="home" class="hero">
         <div class="container hero-content">
-          <p class="eyebrow">Hello, I am</p>
-          <h1>Una</h1>
-          <p class="role">Exchange student</p>
-          <p class="intro">
-            I am learning, building, and growing through projects that help me
-            explore creativity, technology, and problem-solving.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#projects">View projects</a>
-            <a class="button secondary" href="#contact">Contact me</a>
+          <div class="hero-text">
+            <p class="eyebrow">Welcome</p>
+            <h1>Hello, I’m Una Ellermaee.</h1>
+            <div class="intro-row">
+              <p class="intro">
+                I am a student from Norway currently on an exchange program at Hang
+                Seng University of Hong Kong. My home university is in Kristiansand,
+                Norway. I am very excited to be here and looking forward to explore
+                Hong Kong for a semester!
+              </p>
+              <div class="flag-group" aria-label="Country flags">
+                <img
+                  class="flag-icon"
+                  src="https://flagcdn.com/w80/hk.png"
+                  alt="Hong Kong flag"
+                />
+                <img
+                  class="flag-icon"
+                  src="https://flagcdn.com/w80/no.png"
+                  alt="Norwegian flag"
+                />
+              </div>
+            </div>
+            <div class="hero-actions">
+              <a class="button primary" href="#about">Learn more</a>
+              <a class="button secondary" href="#contact">Contact me</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="Student profile card">
+            <div class="profile-badge">Student</div>
+            <h2>Exchange Student</h2>
+            <ul>
+              <li>Norway</li>
+              <li>Economics student</li>
+              <li>Hong Kong exchange</li>
+            </ul>
           </div>
         </div>
       </section>
 
       <section id="about" class="section">
         <div class="container">
-          <h2>About Me</h2>
-          <p>
-            I am Una, and I am currently studying as an Exchange student. I
-            enjoy learning new ideas, trying practical tasks, and connecting
-            what I learn to real-world problems.
-          </p>
-          <p>
-            My interests are growing as I explore creative and technical work,
-            and I am always looking for ways to improve my skills through
-            practice and feedback.
-          </p>
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Outgoing, curious and excited.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I am a motivated student with a strong interest in understanding how
+                economies, markets, and people connect in real life. Being on exchange in
+                Hong Kong has given me the opportunity to broaden my perspective, learn in a
+                new environment, and meet people from many backgrounds.
+              </p>
+              <p>
+                I like travelling, working out, hiking and skiing.
+              </p>
+            </div>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span>Location</span>
+                <strong>Norway / Hong Kong</strong>
+              </div>
+              <div class="highlight-item">
+                <span>Study</span>
+                <strong>Economics</strong>
+              </div>
+              <div class="highlight-item">
+                <span>University</span>
+                <strong>University of Agder</strong>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section id="skills" class="section alt-section">
+      <section id="projects" class="section alt-section">
         <div class="container">
-          <h2>Skills and Interests</h2>
-          <ul class="skills-list">
-            <li>Beginner Lab Tutorial</li>
-            <li>Creative problem-solving</li>
-            <li>Research and learning</li>
-          </ul>
-        </div>
-      </section>
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Sample work and ideas.</h2>
+          </div>
 
-      <section id="projects" class="section">
-        <div class="container">
-          <h2>Projects</h2>
+          <div class="travel-block">
+            <h3>Travelling</h3>
+            <p>
+              I want to explore Hong Kong, but also other cities in China, including Shanghai,
+              Beijing to visit the Great Wall of China, and Chengdu. I really want to see the
+              Panda Research Base for Giant Pandas. I have also already done many hikes such as
+              Lion Rock, Dragon’s Back, and Po Pin Chau.
+            </p>
+            <img
+              class="po-pin-chau-image"
+              src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80"
+              alt="Great Wall of China in Beijing"
+            />
+          </div>
+
           <div class="projects-grid">
             <article class="project-card">
-              <h3>Project 1</h3>
+              <div class="project-tag">Economics</div>
+              <h3>Hong Kong vs. Norway</h3>
               <p>
-                A short description of your first project. Replace this text with
-                your own idea, work, or class project.
+                I think it is very interesting to experience the differences between these two
+                countries. The culture is different in many ways, from everyday life and social
+                habits to how people communicate and spend their time. The climate is also very
+                different, with Hong Kong being much warmer and more humid compared to Norway's
+                colder and more seasonal weather. I am also fascinated by the history of Hong Kong,
+                especially its unique development and international identity. Comparing Hong Kong and
+                Norway gives me a deeper understanding of how culture, environment, and history shape
+                society.
               </p>
             </article>
-
             <article class="project-card">
-              <h3>Project 2</h3>
+              <div class="project-tag">Research</div>
+              <h3>Study Insights</h3>
               <p>
-                Add a second project here. You can describe what you built, what
-                you learned, or what problem it solved.
+                I study Economics, and I am also taking some AI courses at HSUHK. I do not have a
+                lot of experience with AI yet, but I would like to expand my knowledge because AI is
+                becoming more important in the modern world. I am especially interested in
+                Statistics, Microeconomics, and Macroeconomics, as they help me understand both
+                data and how economies work on different levels.
               </p>
             </article>
-
             <article class="project-card">
-              <h3>Project 3</h3>
+              <div class="project-tag">Work</div>
+              <h3>Insurance Advisor</h3>
               <p>
-                Add a third sample project card. This is a simple place to keep
-                ideas and update them later as your work grows.
+                I work in insurance as an insurance advisor, helping people find solutions that match
+                their needs and providing guidance in important financial decisions. This role has
+                improved my communication skills, problem-solving ability, and understanding of how
+                people make practical choices in everyday life.
               </p>
             </article>
           </div>
@@ -102,20 +165,17 @@
       </section>
 
       <section id="contact" class="section contact-section">
-        <div class="container">
-          <h2>Contact</h2>
-          <p>
-            You can reach me at
-            <a href="mailto:your.safe.public@email.com">your.safe.public@email.com</a>.
-          </p>
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect.</h2>
+          </div>
+          <div class="contact-links">
+            <a class="email-link" href="mailto:unaumb@gmail.com">unaumb@gmail.com</a>
+            <a class="email-link" href="https://wa.me/4740741851">+ 47 40741851</a>
+          </div>
         </div>
       </section>
     </main>
-
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© 2026 Una</p>
-      </div>
-    </footer>
   </body>
 </html>
